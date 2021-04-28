@@ -13,6 +13,8 @@
   },
   "scripts": {
     "heroku-prebuild": "scripts/heroku/prebuild.sh",
-    "heroku-postbuild": "scripts/heroku/postbuild.sh"
+    "heroku-postbuild": "scripts/heroku/postbuild.sh",
+    "scalingo-prebuild": "scripts/heroku/prebuild.sh",
+    "scalingo-postbuild": "scripts/heroku/postbuild.sh"
   }
 }
