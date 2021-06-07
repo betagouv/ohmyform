@@ -1,1 +1,1 @@
-web: node api/dist/main
+web: yarn next start -p $PORT
