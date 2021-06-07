@@ -32,6 +32,10 @@
       "description": "Username of your default admin account",
       "value": "admin"
     },
+    "LOGIN_NOTE": {
+      "description": "Note next to login form",
+      "value": "Welcome to your new OhMyForm instance, you can remove this login note in the dyno configuration!"
+    },
     "ADMIN_PASSWORD": {
       "description": "Password for your default admin account",
       "value": ""
@@ -47,10 +51,18 @@
     "NPM_CONFIG_PRODUCTION": {
       "description": "Allow Dev Dependencies so we can compile typescript",
       "value": "false"
+    },
+    "DATABASE_DRIVER": {
+      "description": "Database Driver to use",
+      "value": "postgres"
+    },
+    "DATABASE_SSL": {
+      "description": "Use SSL Connection for database",
+      "value": "true"
     }
   },
   "addons": [
-    "mongolab",
+    "heroku-postgresql",
     "heroku-redis",
     "mailtrap"
   ],
